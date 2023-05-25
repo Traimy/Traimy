@@ -1,0 +1,95 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    border: 10px solid #bad39e;
+    margin: 20px;
+  }
+  h1.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px; /* 设置容器高度 */
+    border-top: 5px solid #bad39e;
+    border-bottom: 15px solid #bad39e;
+    color: #333333;
+  }
+  h1 {
+    margin: 0; /* 去掉标题的上下外边距 */
+    margin-bottom: 50px;
+  }
+
+  h3{
+    color:  #333333;
+    border: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /* 垂直居中 */
+    background-color: #bad39e;
+    width: 500px;
+    padding-left: 25px;
+  }
+
+  a{
+    color: #639ad5;
+  }
+
+.top ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 3px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+.top ul li{
+    color: #555;
+    font-size: 25px;
+    line-height: 3;
+    border: 2px solid #ccc;
+    margin: 0;
+}
+.top ul li:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+ .top ul li:nth-child(even) {
+    background-color: #fff;
+  }
+
+ ul{
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  ul li{
+    color: #555;
+    font-size: 20px;
+    line-height: 1.5;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+ ul li:nth-child(odd) {
+    background-color: #f5f5f5;
+  }
+  
+ ul li:nth-child(even) {
+    background-color: #fff;
+  }
+
+  footer {
+    padding: 40px 0; /* 距离底部 20 像素 */
+    font-family: "Open Sans", sans-serif; 
+    margin-left: 20px;
+    margin-right: 20px
+  }
+
+  footer div {
+    border: 1px solid #ccc; /* 灰色边框 */
+    padding: 5px; /* 内边距为 20 像素 */
+   
+  }
